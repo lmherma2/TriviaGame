@@ -1,0 +1,51 @@
+ <html>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src ="assets/javascript/app.js"> </script>
+
+  <div class="jumbotron">
+    <h1 class="text-center">Trivia Game</h1>
+    <h3 class="text-center">Try and Guess the Correct Answers in the Allotted Time!</h3>
+</div>
+  <div class="jumbotron">
+    <h1 class="text-center">Timer:</h1>
+    <h3 id= "demo"></h3>
+</div>
+  <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+    <div class = "Question" id = "Question 1" >Name the largest freshwater lake in the world  </div>
+  <input id="answer" type="radio" name="group1" value="correct" > Lake Superior<br>
+  <input id="answer" type="radio" name="group1" value="false"> Lake Michigan<br>
+  <input id="answer" type="radio" name="group1" value="false"> Lake Erie<br>
+  <input id="answer" type="radio" name="group1" value="false"> Lake Huron<br>
+  <br>
+    <div class = "Question" id = "Question 2" >Where would you find the Sea of Tranquility?  </div>
+  <input id="answer" type="radio" name="group2" value="false" > Mars<br>
+  <input id="answer" type="radio" name="group2" value="correct"> The Moon<br>
+  <input id="answer" type="radio" name="group2" value="false"> Jupitor<br>
+  <input id="answer" type="radio" name="group2" value="false"> Nigeria<br>
+  <br>
+    <div class = "Question" id = "Question 3" >What is another word for lexicon? </div>
+  <input id="answer" type="radio" name="group3" value="false" > Thesaurus<br>
+  <input id="answer" type="radio" name="group3" value="false"> Bible<br>
+  <input id="answer" type="radio" name="group3" value="false"> Almanac <br>
+  <input id="answer" type="radio" name="group3" value="correct"> Dictionary<br>
+  <br>
+    <div class = "Question" id = "Question 4" >Name the seventh planet from the sun  </div>
+  <input id="answer" type="radio" name="group4" value="false" > Pluto<br>
+  <input id="answer" type="radio" name="group4" value="correct"> Uranus<br>
+  <input id="answer" type="radio" name="group4" value="false"> Earth<br>
+  <input id="answer" type="radio" name="group4" value="false"> Venus<br>
+  <br>
+    <div class = "Question" id = "Question 5" >What is the capital city of Spain?  </div>
+  <input id="answer" type="radio" name="group5" value="correct" > Madrid<br>
+  <input id="answer" type="radio" name="group5" value="false"> Bilboa<br>
+  <input id="answer" type="radio" name="group5" value="false"> Athens<br>
+  <input id="answer" type="radio" name="group5" value="false"> London<br>
+  <div>
+    <div class="jumbotron">
+    <h1 class="text-center">Correct Answers:</h1>
+    <h3 id= "demo-2"></h3>
+    </div>
+  </div>
+</form>
+
+  </html>
